@@ -1,6 +1,6 @@
 import { getUser, login } from '@/api/login'
 import Vuex from 'vuex'
-import { getToken, removeToken, setToken } from '../utils/auth'
+import { getToken, removeToken, setToken } from '@/utils/auth'
 
 export default Vuex.createStore({
   state: {
