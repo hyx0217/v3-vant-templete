@@ -12,6 +12,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "login */ '@/views/Login'),
   },
   {
+    path: '/sku',
+    name: 'sku',
+    component: () => import(/* webpackChunkName: "about" */ '@/views/Sku'),
+  },
+  {
     path: '',
     redirect: 'home',
     component: () => import(/* webpackChunkName: "about" */ '@/views/Home'),
